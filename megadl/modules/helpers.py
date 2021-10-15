@@ -151,7 +151,7 @@ async def meganz_cb(megabot: Client, query: CallbackQuery):
     user_id = query.from_user.id
     if Config.IS_PUBLIC_BOT == "False":
       if user_id not in Config.AUTH_USERS:
-        await query.answer("Sorry This Bot is a Private Bot 😔! \n\nJoin @NexaBotsUpdates to Make your own bot!", show_alert=True)
+        await query.answer("Sorry This Bot is a Private Bot 😔! \n\nJoin @ReGALTOs_BotZ to Make your own bot!", show_alert=True)
         return
       else:
         pass
@@ -161,7 +161,7 @@ async def meganz_cb(megabot: Client, query: CallbackQuery):
     user_id = query.from_user.id
     if Config.IS_PUBLIC_BOT == "False":
       if user_id not in Config.AUTH_USERS:
-        await query.answer("Sorry This Bot is a Private Bot 😔! \n\nJoin @NexaBotsUpdates to Make your own bot!", show_alert=True)
+        await query.answer("Sorry This Bot is a Private Bot 😔! \n\nJoin @ReGALTOs_BotZ to Make your own bot!", show_alert=True)
         return
       else:
         pass
